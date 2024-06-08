@@ -197,3 +197,14 @@ body{
         opacity: 1;
     }
 }
+
+@media (max-width: 480px) {
+    .card:hover{
+        transform: translateY(50%);
+    }
+
+    .card:hover .imgBox{
+        transform: translateY(-100%) rotateY(180deg) translateX(-100%);
+        z-index: 2;
+    }
+}
