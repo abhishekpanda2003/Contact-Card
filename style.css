@@ -136,7 +136,7 @@ body{
 }
 /* instagram*/
 .containerOne:hover {
-    background-color: #d62976;
+    background-color:    linear-gradient(135deg,#405DE6, #5851DB);
     transition-duration: 0.3s;
 }
 
